@@ -1,11 +1,15 @@
-import logo from './logo.svg';
-import Header from './component/Header';
+import React from 'react';
+import Game from './Game';
+import UserPanel from './component/Userpanel';
+import Scoreboard from './component/Scoreboard';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Scoreboard />
+      <Game />
+      <UserPanel />
     </div>
   );
 }

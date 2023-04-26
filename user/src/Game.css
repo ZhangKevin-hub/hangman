@@ -1,0 +1,24 @@
+.container {
+    justify-content: center;
+    border: solid black;
+    animation: fallDown 1s ease-in-out;
+    animation-fill-mode: both;
+    margin: 0;
+}
+  
+  
+@keyframes fallDown {
+    from {
+      transform: translateY(-100%);
+    }
+    25% {
+      transform: translateY(0%);
+    }
+    50% {
+      transform: translateY(-15%);
+    }
+    to {
+      transform: translateY(0);
+    }
+}
+  
