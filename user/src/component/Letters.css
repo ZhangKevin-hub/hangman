@@ -1,0 +1,37 @@
+.letter_btn {
+    display: inline-flex;
+    margin: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-radius: 50px;
+    background-color: #FF6B6B;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+  
+.letter_btn:hover {
+    background-color: #E05656;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+}
+  
+.letters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+  
+.letter_btn:disabled {
+    background-color: #ccc;
+    color: #888;
+    cursor: not-allowed;
+    box-shadow: none;
+}

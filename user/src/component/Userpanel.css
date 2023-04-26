@@ -1,0 +1,9 @@
+.panel{
+    display: flex;
+    flex-direction: column;
+}
+.panel_btns {
+    display: flex;
+    flex-direction: column;
+}
+  

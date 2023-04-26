@@ -1,0 +1,14 @@
+h1 {
+    padding-top: 1em;
+    background-image: url('../Sign.png');
+    /* https://www.pinterest.com/pin/658440408006273168/ */
+    background-size: cover;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    background-position: 90%;
+    font-size: 50px;
+    font-family: 'Sriracha', cursive;
+    padding-bottom: 10px;
+    margin: 0;
+}
+  
